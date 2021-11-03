@@ -1,0 +1,16 @@
+---
+version: "3"
+services:
+  service-bar:
+    build:
+      dockerfile: "service-bar/Dockerfile"
+      context: "service-bar"
+    expose:
+      - 8080
+  service-foo:
+    build:
+      dockerfile: "service-foo/Dockerfile"
+      context: "."
+    expose:
+      - 8080
+    
