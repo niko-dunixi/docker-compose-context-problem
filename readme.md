@@ -1,5 +1,9 @@
 # docker-compose context problem
 
+Repo to demo/recreate issue repotered: https://github.com/docker/compose/issues/8877
+
+---
+
 With the following naive structure:
 ```
 $ tree -L 2
